@@ -1,1 +1,0 @@
-# cq-intro-python-gpu
