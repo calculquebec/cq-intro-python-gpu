@@ -1,0 +1,809 @@
+Last login: Thu May  8 11:21:05 on ttys002
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+Mac-4428:~ sergueev$ ssh user110@ecole.calculquebec.cloud
+^C
+Mac-4428:~ sergueev$ 
+Mac-4428:~ sergueev$ 
+Mac-4428:~ sergueev$ ssh user110@ecole.calculquebec.cloud
+The authenticity of host 'ecole.calculquebec.cloud (198.168.189.176)' can't be established.
+ED25519 key fingerprint is SHA256:54j5ITOSuNSbyJ2dzI+EGfGp1FrqZGOHQKtUW9cwyFA.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'ecole.calculquebec.cloud,198.168.189.176' (ED25519) to the list of known hosts.
+Password: 
+[user110@login1 ~]$ 
+[user110@login1 ~]$ 
+[user110@login1 ~]$ 
+[user110@login1 ~]$ 
+[user110@login1 ~]$ git clone  https://github.com/calculquebec/cq-intro-python-gpu.git
+Cloning into 'cq-intro-python-gpu'...
+remote: Enumerating objects: 135, done.
+remote: Counting objects: 100% (135/135), done.
+remote: Compressing objects: 100% (113/113), done.
+remote: Total 135 (delta 62), reused 59 (delta 20), pack-reused 0 (from 0)
+Receiving objects: 100% (135/135), 5.56 MiB | 8.33 MiB/s, done.
+Resolving deltas: 100% (62/62), done.
+[user110@login1 ~]$ 
+[user110@login1 ~]$ 
+[user110@login1 ~]$ client_loop: send disconnect: Broken pipe
+Mac-4428:~ sergueev$ 
+Mac-4428:~ sergueev$ 
+Mac-4428:~ sergueev$ ssh user110@ecole.calculquebec.cloud
+Password: 
+Last login: Fri May  9 16:50:30 2025 from 72.136.99.110
+
+[user110@login1 ~]$ 
+[user110@login1 ~]$ 
+[user110@login1 ~]$ ls
+Untitled.ipynb  cq-intro-python-gpu  projects  scratch
+[user110@login1 ~]$ client_loop: send disconnect: Broken pipe
+Mac-4428:~ sergueev$ ssh helper4@ecole.calculquebec.cloud
+Password: 
+[helper4@login1 ~]$ 
+[helper4@login1 ~]$ ls
+PYT101-ecole_printemps_2025-main  cq-formation-cip202-main       cq-formation-dat201-main              cq-formation-nbody-main        projects
+cip101-exercices-main             cq-formation-convolution-main  cq-formation-ecoulement-chaleur-main  cq-intro-python-gpu-main       scratch
+cq-formation-cip201-main          cq-formation-dask-main         cq-formation-mpi201-main              intro-machine-learning-master  shell-lesson-data
+[helper4@login1 ~]$ cd cq-formation-nbody-main/
+[helper4@login1 cq-formation-nbody-main]$ ls
+Makefile  animate_nbody.py  global.h  nbody.cpp  parameters.txt  parameters_long.txt  python-nbody.py  readme.md  solutions  sourcefiles
+[helper4@login1 cq-formation-nbody-main]$ 
+[helper4@login1 cq-formation-nbody-main]$ cd so
+-bash: cd: so: No such file or directory
+[helper4@login1 cq-formation-nbody-main]$ ls
+Makefile  animate_nbody.py  global.h  nbody.cpp  parameters.txt  parameters_long.txt  python-nbody.py  readme.md  solutions  sourcefiles
+[helper4@login1 cq-formation-nbody-main]$ cd solutions/
+[helper4@login1 solutions]$ ls
+boost_mpi  cuda  md5  mpi  openacc  openmp  openmp_opt  optimisation
+[helper4@login1 solutions]$ 
+[helper4@login1 solutions]$ cd ../
+[helper4@login1 cq-formation-nbody-main]$ vim python-nbody.py 
+[helper4@login1 cq-formation-nbody-main]$ cd
+[helper4@login1 ~]$ 
+[helper4@login1 ~]$ 
+[helper4@login1 ~]$ cd
+[helper4@login1 ~]$ 
+[helper4@login1 ~]$ 
+[helper4@login1 ~]$ wget git clone  https://github.com/calculquebec/cq-intro-python-gpu.git
+--2025-05-15 17:31:09--  http://git/
+Resolving git... failed: Device or resource busy.
+wget: unable to resolve host address ‘git’
+--2025-05-15 17:31:09--  http://clone/
+Resolving clone... failed: Device or resource busy.
+wget: unable to resolve host address ‘clone’
+--2025-05-15 17:31:09--  https://github.com/calculquebec/cq-intro-python-gpu.git
+Resolving github.com... 140.82.112.3
+Connecting to github.com|140.82.112.3|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://github.com/calculquebec/cq-intro-python-gpu [following]
+--2025-05-15 17:31:09--  https://github.com/calculquebec/cq-intro-python-gpu
+Reusing existing connection to github.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cq-intro-python-gpu.git’
+
+cq-intro-python-gpu.git                    [  <=>                                                                      ] 232.42K   820KB/s    in 0.3s    
+
+2025-05-15 17:31:10 (820 KB/s) - ‘cq-intro-python-gpu.git’ saved [238001]
+
+FINISHED --2025-05-15 17:31:10--
+Total wall clock time: 1.2s
+Downloaded: 1 files, 232K in 0.3s (820 KB/s)
+[helper4@login1 ~]$ 
+[helper4@login1 ~]$ 
+[helper4@login1 ~]$ ls
+PYT101-ecole_printemps_2025-main  cq-formation-convolution-main         cq-formation-mpi201-main  intro-machine-learning-master
+cip101-exercices-main             cq-formation-dask-main                cq-formation-nbody-main   projects
+cq-formation-cip201-main          cq-formation-dat201-main              cq-intro-python-gpu-main  scratch
+cq-formation-cip202-main          cq-formation-ecoulement-chaleur-main  cq-intro-python-gpu.git   shell-lesson-data
+[helper4@login1 ~]$ cd cq-intro-python-gpu
+cq-intro-python-gpu-main/ cq-intro-python-gpu.git   
+[helper4@login1 ~]$ 
+[helper4@login1 ~]$ ls
+PYT101-ecole_printemps_2025-main  cq-formation-convolution-main         cq-formation-mpi201-main  intro-machine-learning-master
+cip101-exercices-main             cq-formation-dask-main                cq-formation-nbody-main   projects
+cq-formation-cip201-main          cq-formation-dat201-main              cq-intro-python-gpu-main  scratch
+cq-formation-cip202-main          cq-formation-ecoulement-chaleur-main  cq-intro-python-gpu.git   shell-lesson-data
+[helper4@login1 ~]$ rm cq-intro-python-gpu.git 
+[helper4@login1 ~]$ 
+[helper4@login1 ~]$ 
+[helper4@login1 ~]$ cp -r cq-intro-python-gpu-main cq-python-gpu-test
+[helper4@login1 ~]$ cd cq-python-gpu-test/
+[helper4@login1 cq-python-gpu-test]$ ls
+00-about.ipynb      02-numba-cpu.ipynb   04-numba-cuda.ipynb           06-numba-cuda-extra.ipynb  images
+01-intro-gpu.ipynb  03-intro-cuda.ipynb  05-numba-cuda-advanced.ipynb  README.md                  solutions
+[helper4@login1 cq-python-gpu-test]$ 
+[helper4@login1 cq-python-gpu-test]$ 
+[helper4@login1 cq-python-gpu-test]$ 
+[helper4@login1 cq-python-gpu-test]$ pwd
+/home/helper4/cq-python-gpu-test
+[helper4@login1 cq-python-gpu-test]$ 
+[helper4@login1 cq-python-gpu-test]$ 
+[helper4@login1 cq-python-gpu-test]$ pwd
+/home/helper4/cq-python-gpu-test
+[helper4@login1 cq-python-gpu-test]$ client_loop: send disconnect: Broken pipe
+Mac-4428:~ sergueev$ 
+Mac-4428:~ sergueev$ 
+Mac-4428:~ sergueev$ 
+Mac-4428:~ sergueev$ ssh helper4@ecole.calculquebec.cloud
+Password: 
+Last login: Thu May 15 17:20:24 2025 from 45.44.225.229
+que	[helper4@login1 ~]$ que
+-bash: que: command not found
+[helper4@login1 ~]$ squeue 
+          JOBID     USER      ACCOUNT           NAME  ST  TIME_LEFT NODES CPUS TRES_PER_N MIN_MEM NODELIST (REASON) 
+            126  helper4 def-sponsor0 spawner-jupyte  CF    3:56:47     1    6 gres:gpu:1   4048M nodegpupool1 (None) 
+[helper4@login1 ~]$ squeue 
+          JOBID     USER      ACCOUNT           NAME  ST  TIME_LEFT NODES CPUS TRES_PER_N MIN_MEM NODELIST (REASON) 
+            126  helper4 def-sponsor0 spawner-jupyte   R    3:59:32     1    6 gres:gpu:1   4048M nodegpupool1 (None) 
+[helper4@login1 ~]$ client_loop: send disconnect: Broken pipe
+Mac-4428:~ sergueev$ 
+Mac-4428:~ sergueev$ 
+Mac-4428:~ sergueev$ 
+Mac-4428:~ sergueev$ ssh helper4@ecole.calculquebec.cloud
+Password: 
+Last login: Fri May 16 15:37:34 2025 from 45.44.225.229
+sqeu	[helper4@login1 ~]$ sqeu
+-bash: sqeu: command not found
+[helper4@login1 ~]$ squeue 
+          JOBID     USER      ACCOUNT           NAME  ST  TIME_LEFT NODES CPUS TRES_PER_N MIN_MEM NODELIST (REASON) 
+            580 sarj6899 def-sponsor0 spawner-jupyte   R    3:15:36     1    1        N/A   4048M nodecpupool7 (None) 
+            583   fhardy def-sponsor0 spawner-jupyte   R    3:27:38     1    1        N/A   3000M nodecpupool8 (None) 
+            584 rosaliej def-sponsor0 spawner-jupyte   R    3:28:06     1    1        N/A   4048M nodecpupool8 (None) 
+            585  sodik03 def-sponsor0 spawner-jupyte   R    3:28:19     1    1        N/A   4048M nodecpupool1 (None) 
+            589    manon def-sponsor0 spawner-jupyte   R    3:30:35     1    1        N/A   4048M nodecpupool7 (None) 
+            591 mroyleli def-sponsor0 spawner-jupyte   R    3:31:27     1    1        N/A   4048M nodecpupool7 (None) 
+            598    vipri def-sponsor0 spawner-jupyte   R    3:36:29     1    1        N/A   4048M nodecpupool6 (None) 
+            600 florence def-sponsor0 spawner-jupyte   R    3:38:05     1    1        N/A   4048M nodecpupool6 (None) 
+            604 bandiang def-sponsor0 spawner-jupyte   R    3:42:40     1    1        N/A   4048M nodecpupool6 (None) 
+            606 alioubar def-sponsor0 spawner-jupyte   R    3:43:14     1    1        N/A   4048M nodecpupool7 (None) 
+            607 samanehr def-sponsor0 spawner-jupyte   R    3:43:17     1    1        N/A   4048M nodecpupool1 (None) 
+            609     aya1 def-sponsor0 spawner-jupyte   R    3:44:02     1    1        N/A   3000M nodecpupool8 (None) 
+            611 antho233 def-sponsor0 spawner-jupyte   R    3:44:44     1    1        N/A   3000M nodecpupool8 (None) 
+            612 plstonge def-sponsor0 spawner-jupyte   R    3:44:54     1    1        N/A   3000M nodecpupool8 (None) 
+            613  timothe def-sponsor0 spawner-jupyte   R    3:44:57     1    1        N/A   3000M nodecpupool7 (None) 
+            614 bdelcroi def-sponsor0 spawner-jupyte   R    3:44:57     1    1        N/A   4048M nodecpupool7 (None) 
+            615      css def-sponsor0 spawner-jupyte   R    3:44:57     1    1        N/A   3000M nodecpupool1 (None) 
+            616 uzcanata def-sponsor0 spawner-jupyte   R    3:44:57     1    1        N/A   3000M nodecpupool1 (None) 
+            617  jayy033 def-sponsor0 spawner-jupyte   R    3:44:57     1    1        N/A   3000M nodecpupool1 (None) 
+            618 redachat def-sponsor0 spawner-jupyte   R    3:44:57     1    1        N/A   3000M nodecpupool1 (None) 
+            619    jlcyr def-sponsor0 spawner-jupyte   R    3:45:03     1    1        N/A      4G nodecpupool6 (None) 
+            620 sophie28 def-sponsor0 spawner-jupyte   R    3:45:11     1    1        N/A   3000M nodecpupool1 (None) 
+            621   jmathe def-sponsor0 spawner-jupyte   R    3:45:14     1    1        N/A   3000M nodecpupool6 (None) 
+            622 nouradeg def-sponsor0 spawner-jupyte   R    3:45:14     1    1        N/A   3000M nodecpupool6 (None) 
+            623 mathieuh def-sponsor0 spawner-jupyte   R    3:45:17     1    1        N/A   3000M nodecpupool6 (None) 
+            624    yvbov def-sponsor0 spawner-jupyte   R    3:45:17     1    1        N/A   3000M nodecpupool6 (None) 
+            627 bzrudski def-sponsor0 spawner-jupyte   R    3:45:31     1    1        N/A   3000M nodecpupool5 (None) 
+            628 lisianel def-sponsor0 spawner-jupyte   R    3:45:32     1    1        N/A   3000M nodecpupool5 (None) 
+            629  pytre10 def-sponsor0 spawner-jupyte   R    3:45:38     1    1        N/A   3000M nodecpupool1 (None) 
+            630 finy2701 def-sponsor0 spawner-jupyte   R    3:45:41     1    1        N/A   3000M nodecpupool5 (None) 
+            631 pouhehir def-sponsor0 spawner-jupyte   R    3:45:58     1    1        N/A   3000M nodecpupool7 (None) 
+            632 simoncto def-sponsor0 spawner-jupyte   R    3:46:00     1    1        N/A   3000M nodecpupool7 (None) 
+            633 nicolasv def-sponsor0 spawner-jupyte   R    3:46:04     1    1        N/A   3000M nodecpupool5 (None) 
+            634 aliceass def-sponsor0 spawner-jupyte   R    3:46:07     1    1        N/A   3000M nodecpupool5 (None) 
+            635     kedi def-sponsor0 spawner-jupyte   R    3:46:10     1    1        N/A   3000M nodecpupool5 (None) 
+            636   neysam def-sponsor0 spawner-jupyte   R    3:46:10     1    1        N/A   3000M nodecpupool5 (None) 
+            637 aaddabla def-sponsor0 spawner-jupyte   R    3:46:14     1    1        N/A   3000M nodecpupool5 (None) 
+            640 veroniqu def-sponsor0 spawner-jupyte   R    3:46:22     1    1        N/A   3000M nodecpupool2 (None) 
+            641   alasia def-sponsor0 spawner-jupyte   R    3:46:22     1    1        N/A   3000M nodecpupool2 (None) 
+            642     fcms def-sponsor0 spawner-jupyte   R    3:46:24     1    1        N/A   3000M nodecpupool2 (None) 
+            643 marchalo def-sponsor0 spawner-jupyte   R    3:46:24     1    1        N/A   3000M nodecpupool2 (None) 
+            644  mohamed def-sponsor0 spawner-jupyte   R    3:46:28     1    1        N/A   3000M nodecpupool2 (None) 
+            645 vanessap def-sponsor0 spawner-jupyte   R    3:46:42     1    1        N/A   3000M nodecpupool2 (None) 
+            646  jieying def-sponsor0 spawner-jupyte   R    3:46:48     1    1        N/A   3000M nodecpupool3 (None) 
+            647   giotta def-sponsor0 spawner-jupyte   R    3:46:53     1    1        N/A   3000M nodecpupool3 (None) 
+            650 vathsala def-sponsor0 spawner-jupyte   R    3:47:49     1    1        N/A   3000M nodecpupool3 (None) 
+            651  algod41 def-sponsor0 spawner-jupyte   R    3:48:48     1    1        N/A   3000M nodecpupool2 (None) 
+            652 eliehabe def-sponsor0 spawner-jupyte   R    3:49:13     1    1        N/A   4048M nodecpupool3 (None) 
+            653   barilc def-sponsor0 spawner-jupyte   R    3:49:33     1    1        N/A   3000M nodecpupool2 (None) 
+            655    lmt10 def-sponsor0 spawner-jupyte   R    3:50:03     1    1        N/A   4098M nodecpupool3 (None) 
+            656  ericgig def-sponsor0 spawner-jupyte   R    3:56:17     1    1        N/A   4048M nodecpupool8 (None) 
+            271 shuka223 def-sponsor0 spawner-jupyte   R    3:59:38     1    1        N/A   4048M nodecpupool8 (None) 
+[helper4@login1 ~]$ squeue | grep help4
+[helper4@login1 ~]$ squeue | grep helper4
+[helper4@login1 ~]$ 
+[helper4@login1 ~]$ 
+  [Restored May 20, 2025 at 4:14:16 PM]
+Last login: Tue May 20 16:14:16 on ttys001
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+Mac-4428:~ sergueev$ 
+Mac-4428:~ sergueev$ 
+Mac-4428:~ sergueev$ ssh helper4@ecole.calculquebec.cloud
+Password: 
+Last login: Tue May 20 17:57:18 2025 from 45.44.225.229
+
+[helper4@login1 ~]$ 
+[helper4@login1 ~]$ ls
+PYT101-ecole_printemps_2025-main  cq-formation-convolution-main         cq-formation-mpi201-main  intro-machine-learning-master
+cip101-exercices-main             cq-formation-dask-main                cq-formation-nbody-main   projects
+cq-formation-cip201-main          cq-formation-dat201-main              cq-intro-python-gpu-main  scratch
+cq-formation-cip202-main          cq-formation-ecoulement-chaleur-main  cq-python-gpu-test        shell-lesson-data
+[helper4@login1 ~]$ cd cq-python-gpu-test/
+[helper4@login1 cq-python-gpu-test]$ ls
+00-about.ipynb      02-numba-cpu.ipynb   04-numba-cuda.ipynb           06-numba-cuda-extra.ipynb  README.md       images
+01-intro-gpu.ipynb  03-intro-cuda.ipynb  05-numba-cuda-advanced.ipynb  07-pycuda-cupy.ipynb       Untitled.ipynb  solutions
+[helper4@login1 cq-python-gpu-test]$ 
+[helper4@login1 cq-python-gpu-test]$ scp sergueev@beluga.computecanada.ca:/home/sergueev/BackUp-from-Helios/PyCUDA_matmul.ipynb .
+The authenticity of host 'beluga.computecanada.ca (<no hostip for proxy command>)' can't be established.
+ED25519 key fingerprint is SHA256:lwmU2AS/oQ0Z2M1a31yRAxlKPcMlQuBPFP+ji/HorHQ.
+Matching host key fingerprint found in DNS.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'beluga.computecanada.ca' (ED25519) to the list of known hosts.
+Multifactor authentication is now mandatory to connect to this cluster.
+You can enroll your account into multifactor authentication on this page:
+https://ccdb.alliancecan.ca/multi_factor_authentications
+by following the instructions available here:
+https://docs.alliancecan.ca/wiki/Multifactor_authentication
+
+=============================================================================
+
+L'authentification multifacteur est maintenant obligatoire pour vous connecter
+à cette grappe. Configurez votre compte sur
+https://ccdb.alliancecan.ca/multi_factor_authentications
+et suivez les directives dans
+https://docs.alliancecan.ca/wiki/Multifactor_authentication/fr.
+(sergueev@beluga.computecanada.ca) Password: 
+(sergueev@beluga.computecanada.ca) Duo two-factor login for sergueev
+
+Enter a passcode or select one of the following options:
+
+ 1. Duo Push to PritomP7 (Android)
+ 2. Duo Push to Redmi2 (Android)
+
+Passcode or option (1-2): vvcccbbgtkflcrgjktvdllkhevedbfbiblugkujblgcl
+PyCUDA_matmul.ipynb                                                                                                     100% 3217   239.9KB/s   00:00    
+[helper4@login1 cq-python-gpu-test]$ 
+[helper4@login1 cq-python-gpu-test]$ 
+[helper4@login1 cq-python-gpu-test]$ 
+[helper4@login1 cq-python-gpu-test]$ 
+[helper4@login1 cq-python-gpu-test]$ sudo su -
+
+We trust you have received the usual lecture from the local System
+Administrator. It usually boils down to these three things:
+
+    #1) Respect the privacy of others.
+    #2) Think before you type.
+    #3) With great power comes great responsibility.
+
+[sudo] password for helper4: 
+sudo: PAM account management error: Permission denied
+sudo: a password is required
+[helper4@login1 cq-python-gpu-test]$ 
+[helper4@login1 cq-python-gpu-test]$ exit
+logout
+Connection to ecole.calculquebec.cloud closed.
+Mac-4428:~ sergueev$ ssh centos4@ecole.calculquebec.cloud
+Password: 
+
+Mac-4428:~ sergueev$ 
+Mac-4428:~ sergueev$ ssh centos4@ecole.calculquebec.cloud -i .ssh/id_rsa
+Password: 
+
+Mac-4428:~ sergueev$ 
+Mac-4428:~ sergueev$ ssh helper4@ecole.calculquebec.cloud
+Password: 
+Last login: Tue May 20 20:15:59 2025 from 45.44.225.229
+
+[helper4@login1 ~]$ 
+[helper4@login1 ~]$ 
+[helper4@login1 ~]$ cd cq-python-gpu-test/
+[helper4@login1 cq-python-gpu-test]$ ls
+00-about.ipynb      02-numba-cpu.ipynb   04-numba-cuda.ipynb           06-numba-cuda-extra.ipynb  PyCUDA_matmul.ipynb  Untitled.ipynb  solutions
+01-intro-gpu.ipynb  03-intro-cuda.ipynb  05-numba-cuda-advanced.ipynb  07-pycuda-cupy.ipynb       README.md            images
+[helper4@login1 cq-python-gpu-test]$ scp 07-pycuda-cupy.ipynb sergueev@beluga.computecanada.ca:/home/sergueev/cq-intro-python-gpu/
+Multifactor authentication is now mandatory to connect to this cluster.
+You can enroll your account into multifactor authentication on this page:
+https://ccdb.alliancecan.ca/multi_factor_authentications
+by following the instructions available here:
+https://docs.alliancecan.ca/wiki/Multifactor_authentication
+
+=============================================================================
+
+L'authentification multifacteur est maintenant obligatoire pour vous connecter
+à cette grappe. Configurez votre compte sur
+https://ccdb.alliancecan.ca/multi_factor_authentications
+et suivez les directives dans
+https://docs.alliancecan.ca/wiki/Multifactor_authentication/fr.
+(sergueev@beluga.computecanada.ca) Password: 
+(sergueev@beluga.computecanada.ca) Duo two-factor login for sergueev
+
+Enter a passcode or select one of the following options:
+
+ 1. Duo Push to PritomP7 (Android)
+ 2. Duo Push to Redmi2 (Android)
+
+Passcode or option (1-2): vvcccbbgtkfljfdleckihvevkhcddccnrvuidnidghec
+07-pycuda-cupy.ipynb                                                                                                    100% 7601   505.2KB/s   00:00    
+[helper4@login1 cq-python-gpu-test]$ client_loop: send disconnect: Broken pipe
+Mac-4428:~ sergueev$ ssh helper4@ecole.calculquebec.cloud
+Password: 
+Last login: Tue May 20 21:18:41 2025 from 45.44.225.229
+[helper4@login1 ~]$ 
+[helper4@login1 ~]$ pwd
+/home/helper4
+[helper4@login1 ~]$ cd ..
+[helper4@login1 home]$ ls 
+aaddablah        helene       jmathe            pouhehir    user008  user028  user048  user068  user088  user108  user128  user148  user168  user188
+alasia           helene2      kedi              pytre10     user009  user029  user049  user069  user089  user109  user129  user149  user169  user189
+algod41          helene8      lisianeleal       redachatau  user010  user030  user050  user070  user090  user110  user130  user150  user170  user190
+aliceassmar      helper03     lmt10             rosaliej    user011  user031  user051  user071  user091  user111  user131  user151  user171  user191
+alioubarrycq     helper1      lucasn1           saif1       user012  user032  user052  user072  user092  user112  user132  user152  user172  user192
+antho2330        helper2      manon             samanehrz   user013  user033  user053  user073  user093  user113  user133  user153  user173  user193
+aya              helper3      marchalo          sarj6899    user014  user034  user054  user074  user094  user114  user134  user154  user174  user194
+aya1             helper4      marchandl         shuka223    user015  user035  user055  user075  user095  user115  user135  user155  user175  user195
+bandiang2        helper5      mathieuh          simoncton   user016  user036  user056  user076  user096  user116  user136  user156  user176  user196
+barilc           helper6      mboisson          sodik03     user017  user037  user057  user077  user097  user117  user137  user157  user177  user197
+bdelcroix        helper7      mboisson2         sophie28    user018  user038  user058  user078  user098  user118  user138  user158  user178  user198
+bzrudski         helper8      mdion             tawfik99    user019  user039  user059  user079  user099  user119  user139  user159  user179  user199
+css              helper9      mohamed           timothe     user020  user040  user060  user080  user100  user120  user140  user160  user180  user200
+eliehaber        instructor1  mohaned1997       user001     user021  user041  user061  user081  user101  user121  user141  user161  user181  uzcanata
+ericgig          instructor2  mroylelievre      user002     user022  user042  user062  user082  user102  user122  user142  user162  user182  vanessap
+fcms             instructor3  neysam            user003     user023  user043  user063  user083  user103  user123  user143  user163  user183  vathsala13
+fhardy           jayy033      nicolasvallieres  user004     user024  user044  user064  user084  user104  user124  user144  user164  user184  veronique
+finy2701         jesser       nouradeguiche     user005     user025  user045  user065  user085  user105  user125  user145  user165  user185  vipri
+florenceriverin  jieying      ofisette          user006     user026  user046  user066  user086  user106  user126  user146  user166  user186  yvbov
+giotta           jlcyr        plstonge          user007     user027  user047  user067  user087  user107  user127  user147  user167  user187
+[helper4@login1 home]$ cd instructor1/
+-bash: cd: instructor1/: Permission denied
+[helper4@login1 home]$ 
+[helper4@login1 home]$ cd
+[helper4@login1 ~]$ cd cq-intro-python-gpu-main/
+[helper4@login1 cq-intro-python-gpu-main]$ cd ../cq-formation-
+cq-formation-cip201-main/             cq-formation-convolution-main/        cq-formation-dat201-main/             cq-formation-mpi201-main/
+cq-formation-cip202-main/             cq-formation-dask-main/               cq-formation-ecoulement-chaleur-main/ cq-formation-nbody-main/
+[helper4@login1 cq-intro-python-gpu-main]$ cd ../cq-
+cq-formation-cip201-main/             cq-formation-dask-main/               cq-formation-mpi201-main/             cq-python-gpu-test/
+cq-formation-cip202-main/             cq-formation-dat201-main/             cq-formation-nbody-main/              
+cq-formation-convolution-main/        cq-formation-ecoulement-chaleur-main/ cq-intro-python-gpu-main/             
+[helper4@login1 cq-intro-python-gpu-main]$ cd ../cq-
+cq-formation-cip201-main/             cq-formation-dask-main/               cq-formation-mpi201-main/             cq-python-gpu-test/
+cq-formation-cip202-main/             cq-formation-dat201-main/             cq-formation-nbody-main/              
+cq-formation-convolution-main/        cq-formation-ecoulement-chaleur-main/ cq-intro-python-gpu-main/             
+[helper4@login1 cq-intro-python-gpu-main]$ cd ../cq-python-gpu-test/
+[helper4@login1 cq-python-gpu-test]$ ls
+00-about.ipynb      02-numba-cpu.ipynb   04-numba-cuda.ipynb           06-numba-cuda-extra.ipynb  PyCUDA_matmul.ipynb  Untitled.ipynb  solutions
+01-intro-gpu.ipynb  03-intro-cuda.ipynb  05-numba-cuda-advanced.ipynb  07-pycuda-cupy.ipynb       README.md            images
+[helper4@login1 cq-python-gpu-test]$ 
+[helper4@login1 cq-python-gpu-test]$ 
+[helper4@login1 cq-python-gpu-test]$ 
+[helper4@login1 cq-python-gpu-test]$ 
+[helper4@login1 cq-python-gpu-test]$ python
+Python 3.11.5 (main, Sep 18 2023, 12:23:42) [GCC 12.3.1 20230526] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from pycuda import compiler
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ModuleNotFoundError: No module named 'pycuda'
+>>> 
+>>> 
+>>> 
+[helper4@login1 cq-python-gpu-test]$ 
+[helper4@login1 cq-python-gpu-test]$ 
+[helper4@login1 cq-python-gpu-test]$ 
+[helper4@login1 cq-python-gpu-test]$ 
+[helper4@login1 cq-python-gpu-test]$ ls
+00-about.ipynb      02-numba-cpu.ipynb   04-numba-cuda.ipynb           06-numba-cuda-extra.ipynb  PyCUDA_matmul.ipynb  Untitled.ipynb   images
+01-intro-gpu.ipynb  03-intro-cuda.ipynb  05-numba-cuda-advanced.ipynb  07-pycuda-cupy.ipynb       README.md            Untitled1.ipynb  solutions
+[helper4@login1 cq-python-gpu-test]$ scp 07-pycuda-cupy.ipynb instructor1@ecole.calculquebec.cloud:/home/instructor1/cq-intro-python-gpu-main/
+The authenticity of host 'ecole.calculquebec.cloud (<no hostip for proxy command>)' can't be established.
+ED25519 key fingerprint is SHA256:54j5ITOSuNSbyJ2dzI+EGfGp1FrqZGOHQKtUW9cwyFA.
+Matching host key fingerprint found in DNS.
+This host key is known by the following other names/addresses:
+    /etc/ssh/ssh_known_hosts:3: login1,login1.int.ecole.calculquebec.cloud,172.16.25.37
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'ecole.calculquebec.cloud' (ED25519) to the list of known hosts.
+(instructor1@ecole.calculquebec.cloud) Password: 
+07-pycuda-cupy.ipynb                                                                                                    100% 7621     4.7MB/s   00:00    
+[helper4@login1 cq-python-gpu-test]$ 
+[helper4@login1 cq-python-gpu-test]$ scp 07-pycuda-cupy.ipynb instructor2@ecole.calculquebec.cloud:/home/instructor1/cq-intro-python-gpu-main/
+(instructor2@ecole.calculquebec.cloud) Password: 
+dest open("/home/instructor1/cq-intro-python-gpu-main/"): Permission denied
+failed to upload file 07-pycuda-cupy.ipynb to /home/instructor1/cq-intro-python-gpu-main/
+[helper4@login1 cq-python-gpu-test]$ 
+[helper4@login1 cq-python-gpu-test]$ 
+[helper4@login1 cq-python-gpu-test]$ scp 07-pycuda-cupy.ipynb instructor2@ecole.calculquebec.cloud:/home/instructor2/cq-intro-python-gpu-main/
+(instructor2@ecole.calculquebec.cloud) Password: 
+07-pycuda-cupy.ipynb                                                                                                    100% 7621     5.0MB/s   00:00    
+[helper4@login1 cq-python-gpu-test]$ 
+[helper4@login1 cq-python-gpu-test]$ scp 07-pycuda-cupy.ipynb instructor3@ecole.calculquebec.cloud:/home/instructor3/cq-intro-python-gpu-main/
+(instructor3@ecole.calculquebec.cloud) Password: 
+07-pycuda-cupy.ipynb                                                                                                    100% 7621     8.0MB/s   00:00    
+[helper4@login1 cq-python-gpu-test]$ 
+[helper4@login1 cq-python-gpu-test]$ 
+[helper4@login1 cq-python-gpu-test]$ 
+[helper4@login1 cq-python-gpu-test]$ 
+[helper4@login1 cq-python-gpu-test]$ 
+[helper4@login1 cq-python-gpu-test]$ 
+[helper4@login1 cq-python-gpu-test]$ 
+[helper4@login1 cq-python-gpu-test]$ client_loop: send disconnect: Broken pipe
+Mac-4428:~ sergueev$ 
+Mac-4428:~ sergueev$ 
+Mac-4428:~ sergueev$ ssh helper4@ecole.calculquebec.cloud
+Password: 
+Last login: Wed May 21 22:49:17 2025 from 207.162.104.111
+
+[helper4@login1 ~]$ 
+[helper4@login1 ~]$ 
+[helper4@login1 ~]$ cd cq-intro-python-gpu-main/
+[helper4@login1 cq-intro-python-gpu-main]$ ls
+00-about.ipynb      02-numba-cpu.ipynb   04-numba-cuda.ipynb           06-numba-cuda-extra.ipynb  images
+01-intro-gpu.ipynb  03-intro-cuda.ipynb  05-numba-cuda-advanced.ipynb  README.md                  solutions
+[helper4@login1 cq-intro-python-gpu-main]$ exit
+logout
+Connection to ecole.calculquebec.cloud closed.
+Mac-4428:~ sergueev$ ssh instructor1@ecole.calculquebec.cloud
+Password: 
+Last login: Wed May 21 22:51:36 2025 from 207.162.104.111
+[instructor1@login1 ~]$ cd cq-intro-python-gpu-main/
+[instructor1@login1 cq-intro-python-gpu-main]$ ls
+00-about.ipynb      02-numba-cpu.ipynb   04-numba-cuda.ipynb           06-numba-cuda-extra.ipynb  README.md  solutions
+01-intro-gpu.ipynb  03-intro-cuda.ipynb  05-numba-cuda-advanced.ipynb  07-pycuda-cupy.ipynb       images
+[instructor1@login1 cq-intro-python-gpu-main]$ 
+[instructor1@login1 cq-intro-python-gpu-main]$ vim 07-pycuda-cupy.ipynb 
+
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "d8a724b2-cd1f-41d7-b086-d9e221d869bd",
+   "metadata": {},
+   "source": [
+    "# Introduction to GPU Programming with Python\n",
+    "## Alternatives to Numba: CuPy and Pycuda\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "da25c3a6-b64c-4dad-baf4-4daa53765556",
+   "metadata": {},
+   "source": [
+    "### CuPy"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "48318f3d-6306-43b7-9f87-5d5efa25d349",
+   "metadata": {},
+   "source": [
+    "CuPy is a GPU array backend that implements a subset of NumPy interface."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b750c3fc-3082-49ab-9646-e77b2d33fa14",
+   "metadata": {},
+   "source": [
+    "First load NumPu and CuPy modules"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "f349126f-c54a-4230-9383-d865e0f838b8",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/x86-64-v3, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic\n",
+      "Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/generic/cupy-13.3.0+computecanada-cp311-cp311-linux_x86_64.whl\n",
+      "Requirement already satisfied: numpy<2.3,>=1.22 in /opt/ipython-kernel-3.11/lib/python3.11/site-packages (from cupy) (2.2.2+computecanada)\n",
+      "Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/fastrlock-0.8.1+computecanada-cp311-cp311-linux_x86_64.whl (from cupy)\n",
+      "Installing collected packages: fastrlock, cupy\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m2/2\u001b[0m [cupy][32m1/2\u001b[0m [cupy]\n",
+      "\u001b[1A\u001b[2KSuccessfully installed cupy-13.3.0+computecanada fastrlock-0.8.1+computecanada\n"
+     ]
+    }
+   ],
+   "source": [
+    "!pip install cupy --no-index"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "e006c980-04df-4e30-8881-868ddb5fd3eb",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import numpy as np\n",
+    "import cupy as cp"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "2c6f9252-bb0a-4471-8211-44a10ea720a5",
+   "metadata": {},
+   "source": [
+    "Now we create matrices A,B,C in CPU memory:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "e2df0cee-a8b4-4c91-aac5-7b1c0572402d",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "A=np.random.rand(512,512).astype(np.float32)\n",
+    "B=np.random.rand(512,512).astype(np.float32)\n",
+    "C=np.zeros(shape=(512,512)).astype(np.float32)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "8e695c4e-86b5-4e01-8b65-84d904d9462e",
+   "metadata": {},
+   "source": [
+    "Then we copy data to GPU memory"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "c18edad9-8800-41bf-8744-8e7e7bdc796d",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "d_A=cp.asarray(A)\n",
+    "d_B=cp.asarray(B)\n",
+    "d_C=cp.asarray(C)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "a880de4a-23c4-4416-bbbc-6e605e3b6649",
+   "metadata": {},
+   "source": [
+    "Then we use Numpy built-in matrix multiplication function and run on CPU:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "94b4a7f4-d704-4e69-9a50-ff8a8ca4f4de",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "2.7 ms ± 154 μs per loop (mean ± std. dev. of 7 runs, 100 loops each)\n"
+     ]
+    }
+   ],
+   "source": [
+    "%timeit C = np.matmul(A,B)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "40ed09b9-1caf-4eae-b0cf-fee6f96be44d",
+   "metadata": {},
+   "source": [
+    "Then we use CuPy built-in matrix multiplication function and run on GPU:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "809ee75c-78dc-4e23-9a67-b70977c9358b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "100 μs ± 2.29 μs per loop (mean ± std. dev. of 7 runs, 10,000 loops each)\n"
+     ]
+    }
+   ],
+   "source": [
+    "%timeit d_C = cp.matmul(d_A,d_B)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "e0fcf780-8dba-4111-88ee-6158261609db",
+   "metadata": {},
+   "source": [
+    "### PyCuda"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "47bcee9d-bb51-4f5f-9066-2ee0dffac684",
+   "metadata": {},
+   "source": [
+    "PyCuda gives you easy, Pythonic access to Nvidia's CUDA parallel computation API.\n",
+    "The idea is that you write CUDA kernels in C/C++, use a wrapper to make it Python object, but variables and execution are managed by Python"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "3f267aa1-8fa3-4803-9d92-1921a22843e8",
+   "metadata": {},
+   "source": [
+    "First load all pycuda modules:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "60645ee6-82a9-4e15-b642-70210855b0df",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import numpy as np\n",
+    "from pycuda import compiler\n",
+    "from pycuda import driver as cuda\n",
+    "import pycuda.autoinit"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b1573752-183f-4026-af0c-2ed38108f336",
+   "metadata": {},
+   "source": [
+    "Write CUDA C code and feed it into the constructor of a pycuda.compiler.SourceModule:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "05b2d8c8-e2d1-4669-bcb9-53dec6c1a458",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "mod = compiler.SourceModule(\"\"\"\n",
+    "    __global__ void MatrixMultKernel(float *A, float *B, float *C, int Width)\n",
+    "    {\n",
+    "        float tmp=0;\n",
+    "        for(int k=0; k<Width; k++){\n",
+    "            \n",
+    "            tmp += A[threadIdx.y*Width + k] * B[k*Width + threadIdx.x];\n",
+    "        }\n",
+    "        C[threadIdx.y*Width + threadIdx.x] = tmp;\n",
+    "    }\n",
+    "\"\"\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "56b33232-f95f-4fd2-859f-e6a4b64c581a",
+   "metadata": {},
+   "source": [
+    "If there aren’t any errors, the code is now compiled and loaded onto the device.\n",
+    "Now lets define the grid:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "40f74a40-6e91-4a27-99f5-66cc06acb195",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "NumThreads=32\n",
+    "NumBlocks = (C.shape[0]+(NumThreads-1))//NumThreads\n",
+    "blockdim = (NumThreads,NumThreads)\n",
+    "griddim = (NumBlocks,NumBlocks)\n",
+    "print(griddim,blockdim)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "fe71c2e8-cd58-486f-8ba9-4d32f16a5a1f",
+   "metadata": {},
+   "source": [
+    "Now we create matrices A,B,C in CPU memory:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "ba472678-7e43-46b8-a81b-bdc8bafde005",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "A=np.random.rand(512,512).astype(np.float32)\n",
+    "B=np.random.rand(512,512).astype(np.float32)\n",
+    "C=np.zeros(shape=(512,512)).astype(np.float32)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "a9950670-72d1-4744-88cc-e5f867a43cd2",
+   "metadata": {},
+   "source": [
+    "Now we allocate GPU memory for the same matrices:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "7089f4a6-c900-4f20-9a2a-61852104b267",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "d_A = cuda.mem_alloc(A.nbytes)\n",
+    "d_B = cuda.mem_alloc(B.nbytes)\n",
+    "d_C = cuda.mem_alloc(C.nbytes)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "45aae04a-4b47-4d29-a6d8-fccde1dc6760",
+   "metadata": {},
+   "source": [
+    "Now we copy data from CPU to GPU:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "e250bea6-f9d7-498a-a8f9-fffabdfe7db5",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "cuda.memcpy_htod(d_A, A)\n",
+    "cuda.memcpy_htod(d_B, B)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "085ddfd4-0089-4782-bc98-131a3b83b80b",
+   "metadata": {},
+   "source": [
+    "We find a reference to our pycuda.driver.Function and call :"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "8e3cec67-f098-4288-b6df-cf580f3eacfa",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "matmul = mod.get_function(\"MatrixMultKernel\")\n",
+    "matmul(d_A,d_B,d_C,griddim,blockdim)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "86326e13-5235-454a-961f-7076210f1b12",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.11.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
